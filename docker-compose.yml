@@ -16,9 +16,3 @@ services:
     ports:
       - 8080:8080
 
-  multipit:
-    image: axllent/mailpit
-    restart: on-failure
-    ports:
-      - 8025:8025
-      - 1025:1025
