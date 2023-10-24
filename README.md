@@ -8,5 +8,8 @@ To run this project locally run next commands:
 - php artisan migrate
 - php artisan serve
 
+Routes: 
+- POST {{BASE_URL}}/api/numbers/ - generate random number
+- GET {{BASE_URL}}/api/numbers/id - retrieve generated number
 
 
